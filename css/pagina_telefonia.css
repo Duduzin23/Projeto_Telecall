@@ -1,5 +1,5 @@
 .degrade {
-    background-image:url(/img/background\ telefonia.jpg);
+    background-image:url(/img/background\ Telefonia\ 2.jpg);
     background-position: center;
     background-size: 100%;
 }
@@ -86,7 +86,11 @@ pre {
     border-radius: 10px;
     border-color: #AA0E27;
     font-family: Arial, Helvetica, sans-serif;      
-    
+}
+
+.botoes:hover{
+    background-color: aliceblue;
+    color: #AA0E27;
 }
 
 .contrate {

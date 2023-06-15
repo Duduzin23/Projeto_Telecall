@@ -1,7 +1,8 @@
 .degrade {
     background-image:url(/img/Background\ mobilidade.jpg);
-    background-position: center;
+    background-position: auto;
     background-size: 100%;
+
 }
 
 img {
@@ -12,7 +13,6 @@ img {
 .degrade > span {
     display: flex;    
 }
-
 
 .icone {
     padding: 15px;
@@ -62,7 +62,7 @@ pre {
 
 .flex > div {
     border-radius: 10px;
-    background-color:rgb(255, 255, 255);
+    background-color: #FFFF;
     border: 1px solid gray;
     max-width: 300px;   
     padding: 0px 10px; /*Foi mexido para aumentar a largura da div*/
@@ -88,6 +88,11 @@ pre {
     border-radius: 10px;
     border-color: #AA0E27;
     font-family: Arial, Helvetica, sans-serif;     
+}
+
+.botoes:hover{
+    background-color: aliceblue;
+    color: #AA0E27;
 }
 
 .contrate {

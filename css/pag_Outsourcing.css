@@ -1,0 +1,83 @@
+.degrade {
+    background-image:url(/img/background\ outsourcing.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.degrade > span {
+    display: flex;    
+}
+
+.titulos {
+    display: flex;
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 70px;  
+    margin-left: 40px; 
+}
+
+.contrate{
+    transition: transform 500ms linear;
+}
+
+.contrate:hover{
+    transform: scale(1.10);    
+}
+
+.degrade > h2 {
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 40px;
+}
+
+.contrate {
+    background-color: red;
+    color: aliceblue;
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 0 30px 40px;
+    font-size: 18px;
+}
+
+.texto{
+    display: flex;
+    margin-top: 70px;
+}
+
+.texto > div{
+    text-align: left;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0px 0px 40px;
+    width: 900px;
+}
+
+.texto > img{
+    width: 25%;
+    margin: -20px auto auto auto;
+}
+
+.um {
+    color: #003b71;
+    font-size: 42px;    
+}
+
+.dois{
+    color: #003b71;
+    font-size: 42px; 
+    margin-left: 40px; 
+}
+
+.beneficios{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    font-size: 18px;
+    text-align: center;
+    gap: 90px;     
+}
+
+.beneficios > div {
+    max-width: 500px;
+}
