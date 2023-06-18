@@ -1,6 +1,7 @@
 .degrade {
     background-image:url(/img/background\ outsourcing.jpg);
     background-position: center;
+    display: block;
     background-size: 100%;
 }
 
@@ -66,7 +67,8 @@
 .dois{
     color: #003b71;
     font-size: 42px; 
-    margin-left: 39px; 
+    margin-left: 40px;
+    margin-bottom: 60px; 
 }
 
 .beneficios{
@@ -75,9 +77,52 @@
     margin-top: 70px;
     font-size: 18px;
     text-align: center;
-    gap: 90px;     
+    margin: 20px auto;
+    max-width: 1470px; 
+    margin-left: 0px;
 }
 
 .beneficios > div {
-    max-width: 500px;
+    flex: 1 1 400px;
+    max-width: 600px;
+    margin-left: 90px;
+    margin-bottom: 90px;   
+}
+
+.solucoes{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+    margin: 0 10px 100px 40px;
+    
+       
+}
+
+.solucoes > div{
+    flex: 1 1 350px;
+    margin-left: 30px;
+    text-align: left;
+    margin-top: 50px;
+    max-width: 800px;
+
+}
+
+.solucoes > img{
+    margin: auto; 
+    margin-top: 50px;  
+}
+
+
+@media(max-width: 1920px){
+    .solucoes{
+        max-width: 1900px;
+    }
+
+}
+
+@media(max-width: 1842px){
+    .solucoes > div{
+        margin-left: 10px;        
+    }
+
 }
